@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Theorem</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="aside">
+        <!-- Logo div -->
+        <div class="logo">
+          <img src="Assets/Logo.png" alt="Logo" />
+        </div>
+        <!-- Menu div -->
+        <div class="menu">
+          <div class="menu-list">
+            <li class="menu-item active">
+              <img
+                src="Assets/Icons/dashboard-off.png"
+                alt="dashboard-logo"
+              /><a href="#">Dashboard</a>
+            </li>
+            <li class="menu-item">
+              <img src="Assets/Icons/invoice-off.png" alt="invoice-logo" /><a
+                href="#"
+                >Invoices</a
+              >
+            </li>
+            <li class="menu-item">
+              <img
+                src="Assets/Icons/proposals-off.png"
+                alt="proposals-logo"
+              /><a href="#">Proposals</a>
+            </li>
+            <li class="menu-item">
+              <img src="Assets/Icons/services-off.png" alt="service-logo" /><a
+                href="#"
+                >Services</a
+              >
+            </li>
+            <li class="menu-item">
+              <img
+                src="Assets/Icons/transactions-off.png"
+                alt="Transaction-logo"
+              /><a href="#">Transactions</a>
+            </li>
+            <li class="menu-item">
+              <img src="Assets/Icons/projects-off.png" alt="customer-logo" /><a
+                href="#"
+                >Projects</a
+              >
+            </li>
+            <li class="menu-item">
+              <img src="Assets/Icons/customers.png" alt="customer-logo" /><a
+                href="#"
+                >Customers</a
+              >
+            </li>
+          </div>
+        </div>
+        <!-- Settings div -->
+        <div class="settings">
+          <div>
+            <div>
+              <li class="menu-item">
+                <img
+                  src="Assets/Icons/settings-off.png"
+                  alt="customer-logo"
+                /><a href="#">Settings</a>
+              </li>
+              <li class="menu-item">
+                <img src="Assets/Icons/logout-off.png" alt="customer-logo" /><a
+                  href="#"
+                  >Log Out</a
+                >
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <header class="header">
+          <div class="hamburger-menu" id="hamburgerMenu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <div class="welcome-message">
+            <p>Hi, Welcome back <span style="color:#0cb495;">Robert!</span></p>
+            <!-- <span>Hi, Welcome back <strong>Robert!</strong></span> -->
+          </div>
+          <div class="header-right">
+            <input type="text" placeholder="🔍  Search..." />
+            <img id="notifications" src="Assets/Icons/notifications.png" alt="notifications" />
+            <img src="Assets/Icons/Ellipse 3.png" alt="User Avatar" />
+          </div>
+        </header>
+        <div id="f-section">
+          <h2 id="f-title">Finance Overview</h2>
+        <div class="finance-overview">
+          <div class="overview-card">
+              <span>$ 2,77,120</span>
+              <span class="f-type">Sales</span>
+              <img src="Assets/Icons/insights.png">
+          </div>
+          <div class="overview-card">
+              <span>$ 60,100</span>
+              <span class="f-type">Expense</span>
+              <img src="Assets/Icons/Expense.png">
+          </div>
+          <div class="overview-card">
+              <span>$ 57,230</span>
+              <span class="f-type">Profit</span>
+              <img src="Assets/Icons/Profit.png">
+          </div>
+          <div class="overview-card">
+              <span>$ 1,60,124</span>
+              <span class="f-type">Income</span>
+              <img src="Assets/Icons/Income.png">
+          </div>
+          </div>
+      </div>
+      <div class="current-projects">
+        <div id="top-nav">
+        <h3>Current Projects</h3>
+        <button class="create-btn">Create</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Customer</th>
+                    <th>Sent Date</th>
+                    <th>Amount</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Travel app design</td>
+                    <td>Jacob Jones</td>
+                    <td>28 Oct 2022</td>
+                    <td>$ 240.90</td>
+                    <td><span class="status sent">SENT</span></td>
+                </tr>
+                <tr>
+                    <td>UX Research for Event management app</td>
+                    <td>Wade Warren</td>
+                    <td>18 Oct 2022</td>
+                    <td>$ 120.00</td>
+                    <td><span class="status draft">DRAFT</span></td>
+                </tr>
+                <tr>
+                    <td>Redesign - Food delivery app</td>
+                    <td>Annette Black</td>
+                    <td>15 Oct 2022</td>
+                    <td>$ 351.00</td>
+                    <td><span class="status paid">PAID</span></td>
+                </tr>
+                <tr>
+                    <td>Web App - Online Learning</td>
+                    <td>Cameron Williamson</td>
+                    <td>15 Oct 2022</td>
+                    <td>$ 153.00</td>
+                    <td><span class="status paid">PAID</td>
+                </tr>
+                <tr>
+                    <td>Railway web casestudy</td>
+                    <td>Robert Fox</td>
+                    <td>13 Oct 2022</td>
+                    <td>$ 240.90</td>
+                    <td><span class="status sent">SENT</span></td>
+                </tr>
+                <tr>
+                    <td>Responsive web design</td>
+                    <td>Floyd Miles</td>
+                    <td>06 Oct 2022</td>
+                    <td>$ 140.90</td>
+                    <td><span class="status rejected">REJECTED</span></td>
+                </tr>
+                <tr>
+                    <td>Music app design</td>
+                    <td>Theresa Webb</td>
+                    <td>04 Oct 2022</td>
+                    <td>$ 345.90</td>
+                    <td><span class="status draft">DRAFT</span></td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    <div class="events">
+      <h3>Events</h3>
+      <div class="event-item">
+        <img src="Assets/Icons/Ellipse 45.png" alt="Avatar">
+        <div class="event-details">
+            <div class="event-name">Wade Warren</div>
+            <div class="event-info"><span style="color: #43a5f5;">🎂 Birthday</span>. Today</div>
+        </div>
+        <button class="wish-btn">Wish</button>
+    </div>
+    <div class="event-item">
+        <img src="Assets/Icons/Ellipse 46.png" alt="Avatar">
+        <div class="event-details">
+            <div class="event-name">Wade Warren</div>
+            <div class="event-info"><span style="color: #43a5f5;">🎉 Joining Us</span>. Today</div>
+        </div>
+        <button class="wish-btn">Congratulations</button>
+    </div>
+    <div class="event-item">
+      <img src="Assets/Icons/Ellipse 47.png" alt="Avatar">
+      <div class="event-details">
+          <div class="event-name">Wade Warren</div>
+          <div class="event-info">💼Work Anniversary . 7 September, 2022</div>
+      </div>
+    </div>
+    <div class="event-item">
+      <img src="Assets/Icons/Ellipse 3.png" alt="Avatar">
+      <div class="event-details">
+          <div class="event-name">Wade Warren</div>
+          <div class="event-info"><span style="color: #43a5f5;">🎂 Birthday</span>. Tommorow</div>
+      </div>
+      <button class="wish-btn">Reminder</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script>
+      const hamburgerMenu = document.getElementById("hamburgerMenu");
+      const aside = document.querySelector(".aside");
+
+      hamburgerMenu.addEventListener("click", () => {
+        aside.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
